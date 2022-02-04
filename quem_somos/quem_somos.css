@@ -1,0 +1,284 @@
+header {
+	background: url("../img/foto4-web.png") center center no-repeat;
+	/*background-color: #6a1b9a;*/
+	background-size: cover; 
+	height: 800px;
+	width: 100%;
+}
+
+.menu {
+	background: transparent;
+	box-shadow: none;
+}
+
+.brand-logo {
+	margin-top: 90px;
+	margin-left: center;
+}
+
+.titulo {
+	margin-top: 300px;
+}
+
+.titulo h1 {
+	font-size: 2em;
+	color: #f5f5f5;
+	/*font-weight: 900;*/
+}
+
+.div1 {
+
+	border-radius: 15px;
+	/*margin-top: 30px;*/
+	background: #471F58;
+	/*width: 100px;*/
+	/*height: 200px;*/
+	/*display: flex;*/
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-md-1-mobi {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/nati_pb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-1-mobi:hover {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/nati1.png);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.col-md-2-mobi {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/raquel_pb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-2-mobi:hover {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/raquel1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-3-mobi {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/merlot_mascotte_pb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-3-mobi:hover {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/merlot_mascotte1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.col-md-4-mobi {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/lohaine_moraes_pb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-4-mobi:hover {
+	width: 100px;
+	height:200px;
+	background-image: url(../img/lohaine1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+	.mobile-style {
+
+	}
+
+
+
+
+
+
+
+
+
+
+ /*DESKTOP VISUAL*/
+
+@media screen and (min-width: 960px) {
+	header {
+		height: 1620px;
+	}
+	.brand-logo {
+		margin-top: 90px;
+		margin-left: 200px;
+	}
+	.desktop {
+		margin-top: 140px;
+		margin-right: 200px;
+	}
+	.titulo {
+		margin-top: 300px;
+	}
+	.titulo2 {
+		display: flex;
+		/*justify-content: center;*/
+		align-items: center;
+		margin-top: 200px;
+	}
+	.titulo h1 {
+		font-size: 4em;
+	}
+	.tam_menu {
+		font-size: 25px;
+	}
+	.logo_rodape {
+		float: right;
+	}
+	.follow {
+		font-size: 18px;
+		margin-top: 40px;
+		float: left;
+	}
+	.follow2 {
+		float: left;
+		margin-top: -15px;
+	}
+	/*.logo_redes {
+		margin-right: 450px;
+	}*/
+	.logo_redes {
+	  margin-left: 12px;
+	  float: left;
+	  padding: 0px;
+	  margin-top: -12px;
+	}
+
+	.section-contato {
+		margin-top: -250px;
+		height: 800px;
+	}
+
+	.vl {
+		margin-top: 20px;
+		border-left: 6px solid black;
+		height: 600px;
+	}
+
+	.div1 {
+
+		border-radius: 15px;
+		margin-top: 30px;
+		background: #471F58;
+		/*width: 100px;*/
+		/*height: 200px;*/
+		/*display: flex;*/
+		position: relative;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	./*text-box {
+		margin-left: 15px;
+	}*/
+
+	.quem_logo {
+		max-height: 50% !important;
+		}
+
+	.bio {
+		text-align: justify;
+		width: 430px;
+	}
+
+	/*.col-md-1 {
+    max-width: 100%;
+    height:300px;
+    background: url(../img/nati_pb.png)center center no-repeat;
+    
+    
+   
+    cursor: pointer;
+	}
+
+	.col-md-1:hover {
+    background: url(../img/nati1.png)center center no-repeat;
+     
+     
+    
+     cursor: pointer;
+	}
+
+	.col-md-2 {
+    max-width: 100%;
+    height:300px;
+    background: url(../img/raquel_pb.png)center center no-repeat;
+    
+    
+   
+    cursor: pointer;
+	}
+
+	.col-md-2:hover {
+    background: url(../img/raquel1.png)center center no-repeat;
+     
+     
+    
+     cursor: pointer;
+	}
+
+	.col-md-3 {
+    max-width: 100%;
+    height:300px;
+    background: url(../img/merlot_mascotte_pb.png)center center no-repeat;
+    
+    
+   
+    cursor: pointer;
+	}
+
+	.col-md-3:hover {
+    background: url(../img/merlot_mascotte1.png)center center no-repeat;
+     
+     
+    
+     cursor: pointer;
+	}
+
+	.col-md-4 {
+    max-width: 100%;
+    height:300px;
+    background: url(../img/lohaine_moraes_pb.png)center center no-repeat;
+    
+    
+    
+    cursor: pointer;
+	}
+
+	.col-md-4:hover {
+    background: url(../img/lohaine1.png)center center no-repeat;
+     
+     
+    
+     cursor: pointer;
+	}*/
+
+	.mobile-style {
+		display: none;
+	}
+}

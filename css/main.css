@@ -1,0 +1,67 @@
+header {
+	background-image: url("../img/foto3.jpg");
+	height: 600px;
+}
+
+.menu {
+	background: transparent;
+	box-shadow: none;
+}
+
+.brand-logo {
+	margin-top: 90px;
+	margin-left: center;
+}
+
+.titulo {
+	margin-top: 300px;
+}
+
+.titulo h1 {
+	font-size: 2em;
+	color: #f5f5f5;
+	/*font-weight: 900;*/
+}
+@media screen and (min-width: 960px) {
+	header {
+		height: 1090px;
+	}
+	.brand-logo {
+		margin-top: 90px;
+		margin-left: 200px;
+	}
+	.desktop {
+		margin-top: 140px;
+		margin-right: 200px;
+	}
+	.titulo {
+		margin-top: 500px;
+	}
+	.titulo h1 {
+		font-size: 4em;
+	}
+	.tam_menu {
+		font-size: 25px;
+	}
+	.logo_rodape {
+		float: right;
+	}
+	.follow {
+		font-size: 18px;
+		margin-top: 40px;
+		float: left;
+	}
+	.follow2 {
+		float: left;
+		margin-top: -15px;
+	}
+	/*.logo_redes {
+		margin-right: 450px;
+	}*/
+	.logo_redes {
+	  margin-left: 12px;
+	  float: left;
+	  padding: 0px;
+	  margin-top: -12px;
+	}
+}

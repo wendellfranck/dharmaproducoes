@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="quem_somos.css">
+		<script src="https://kit.fontawesome.com/b11c712642.js" crossorigin="anonymous"></script>
+		<!-- <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16"> -->
+		  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+		<!--Let browser know website is optimized for mobile-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dharma Produções</title>
+    </head>
+    <body>
+        <!--Navbar-->
+		<header>
+			<nav class="menu">
+			     <!--Section: Slider-->
+			    <div class="nav-wrapper">
+			      <a href="https://www.dharmaproducao.com/" class="brand-logo"><img src="../img/logo_menu.png"></a>
+			      <a href="#" data-target="slide_out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			      <ul class="right hide-on-med-and-down desktop">
+			          <!-- <li>
+			              <a class="tam_menu" href="#home">Home</a>
+			          </li> -->
+			          <li>
+			              <a class="tam_menu" href="https://www.dharmaproducao.com/quem_somos">Quem somos</a>
+			          </li>
+			          <li>
+			              <a class="tam_menu" href="https://www.dharmaproducao.com/servicos">O que fazemos</a>
+			          </li>
+			          <li>
+			              <a class="tam_menu" href="https://www.dharmaproducao.com/contato">Contato</a>
+			          </li>
+			      </ul>
+			    </div>
+			</nav>
+			<ul class="sidenav" id="slide_out">
+				<li>
+				  <a href="https://www.dharmaproducao.com/"><i class="material-icons">home</i>Home</a>
+				</li>
+				<li>
+				  <a href="https://www.dharmaproducao.com/quem_somos"><i class="material-icons">home</i>Quem somos</a>
+				</li>
+				<li>
+				  <a href="https://www.dharmaproducao.com/servicos">O que fazemos</a>
+				</li>
+				<li>
+				  <a href="https://www.dharmaproducao.com/contato">Contato</a>
+				</li>
+			</ul>
+      <div class="container">
+          <div class="row">
+            <div class="col s12 center-align titulo">
+                <h1>QUEM SOMOS</h1>
+            </div>
+          </div>
+      </div>
+    	</header>
+      	<section class="section section-contato" style="background: #471F58;">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m6 titulo2 center">
+                  <img class="quem_logo" src="../img/quem_somos_logo.png">
+              </div>
+              <!-- <div class="vl col s12 m2"></div> -->
+              <div class="col s12 m6 titulo2">
+                  <h3 class="white-text">DHARMA PRODUÇÕES</h3>
+              </div>
+              <div class="col s12 m6">
+                 <p class="white-text bio">Idealizada pelas produtoras culturais Raquel Cardoso e Natália Corintho, a Dharma Produções planeja e produz os mais diversos tipos de projetos e ações culturais e educacionais a fim de fomentar e disseminar o entretenimento na cidade do Rio de Janeiro, além de auxiliar novos produtores e artistas em construção de carreira.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-time" style="">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                  <h3 style="color: #471F58;">TIME <b>DHARMA</b></h3>
+                  <p>Conheça o time Dharma</p>
+              </div>
+              <div class="col s12 m3 col-md-1" id="img_nati" onclick="myFunctionNati()">
+                <!-- <img class="seg" src="../img/nati.png"> -->
+                <!-- <img src="../img/nati_pb.png"> -->
+
+                <!-- <p style="color: #471F58; text-align: center;"><b>Natália Corintho</b></p> -->
+              </div>
+              <div class="col s12 m3 col-md-2" onclick="myFunctionRaquel()">
+                <!-- <img class="seg" src="../img/raquel.png"> -->
+                <!-- <img class="pri" src="../img/raquel_pb.png"> -->
+                <!-- <p style="color: #471F58;  text-align: center;"><b>Raquel Cardoso</b></p> -->
+              </div>
+              <div class="col s12 m3 col-md-3" onclick="myFunctionMerlot()">
+                <!-- <img  class="seg" src="../img/merlot_mascotte.png"> -->
+                <!-- <img  class="pri" src="../img/merlot_mascotte_pb.png"> -->
+                <!-- <p style="color: #471F58;  text-align: center;"><b>Merlot, a mascote</b></p> -->
+              </div>
+              <div class="col s12 m3 col-md-4" onclick="myFunctionLohaine()">
+                
+              </div>
+              
+              
+               <div class="col s12 div1 hide" id="raquel_desc">
+                <h5 class="white-text text-box"><b>Raquel Cardoso</b></h5>
+                <p class="white-text text-box"><i>Sócia Diretora e Gestão de Projetos</i></p>
+                <p class="white-text text-box">Bacharel em Produção Cultural pelo IFRJ e cursando Marketing pela UVA, possui 5 anos de experiência com gestão e idealização de editais públicos de fomento à cultura. Experiente em produção executiva e curadoria musical em eventos de diferentes portes, é geminiana, mãe da Merlot e uma das idealizadoras da Dharma Produções.</p>
+              </div>
+              <div class="col s12 div1 hide" id="nati_desc">
+                <h5 class="white-text text-box"><b>Natália Corintho</b></h5>
+                <p class="white-text text-box"><i>Sócia Diretora e Gestão Administrativa</i></p>
+                <p class="white-text text-box">Bacharel em Produção Cultural pelo IFRJ e se especializando em marketing na UVA, já atuou como produtora e pesquisadora musical para o Prêmio da Música Brasileira. Curadora artística e produtora de grandes projetos para empresas como Ancar Ivanhoe e Fever, é sócia e idealizadora da Dharma Produções e mãe da Merlot.</p>
+              </div>
+              <div class="col s12 div1 hide" id="lohaine_desc">
+                <h5 class="white-text text-box"><b>Lohaine Moraes</b></h5>
+                <p class="white-text text-box"><i>Assistente de Produção Executiva</i></p>
+                <p class="white-text text-box">Bacharel em produção cultural pelo IFRJ, possui 2 anos de experiência em editais públicos e gestão e centros culturais. Atuou na produção e logística de eventos teatrais e exposições de artes visuais, é amante do segmento do audiovisual e assistente de produção executiva na Dharma Produções.</p>
+              </div>
+              <div class="col s12 div1 hide" id="lohaine_desc">
+                <h5 class="white-text text-box"><b>Lohaine Moraes</b></h5>
+                <p class="white-text text-box"><i>Assistente de Produção Executiva</i></p>
+                <p class="white-text text-box">Bacharel em produção cultural pelo IFRJ, possui 2 anos de experiência em editais públicos e gestão e centros culturais. Atuou na produção e logística de eventos teatrais e exposições de artes visuais, é amante do segmento do audiovisual e assistente de produção executiva na Dharma Produções.</p>
+              </div>
+              <div class="col s12 div1 hide" id="merlot_desc">
+                <h5 class="white-text text-box"><b>Merlot</b></h5>
+                <!-- <p class="white-text text-box"><i>Assistente de Produção Executiva</i></p> -->
+                <p class="white-text text-box">A fofurinha dos que visitam o escritório, mascote da Dharma Produções.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+             
+            </div>
+          </div>
+        </section>
+
+        <script>
+      function myFunctionNati() {
+          $('#nati_desc').removeClass('hide');
+          $('#raquel_desc').addClass('hide');
+          $('#merlot_desc').addClass('hide');
+          $('#lohaine_desc').addClass('hide');
+      } 
+      function myFunctionRaquel() {
+          $('#raquel_desc').removeClass('hide');
+          $('#nati_desc').addClass('hide');
+          $('#merlot_desc').addClass('hide');
+          $('#lohaine_desc').addClass('hide');
+      } 
+      function myFunctionMerlot() {
+          $('#merlot_desc').removeClass('hide');
+          $('#raquel_desc').addClass('hide');
+          $('#nati_desc').addClass('hide');
+          $('#lohaine_desc').addClass('hide');
+      } 
+      function myFunctionLohaine () {
+        $('#lohaine_desc').removeClass('hide');
+        $('#merlot_desc').addClass('hide');
+        $('#raquel_desc').addClass('hide');
+        $('#nati_desc').addClass('hide');
+      }
+        </script>
+        <!--Section: Follow-->
+        <section class="section section-follow black white-text center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <img class="logo_rodape" src="../img/logo_rodape.png">
+                    </div>
+                    <div class="col s12 m6">
+                      <p class="follow">SIGA-NOS NAS</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <h3 class="follow2">REDES</h3>
+                    </div>
+                    <div class="col s12 m6">
+                        <a href="#" class="">
+                            <img class="fab logo_redes" src="../img/logo_redes_insta.png">
+                        </a>
+                       <!--  <a href="#" class="">
+                            <img class="fab logo_redes" src="img/logo_redes_facebook.png">
+                        </a> -->
+                        <a href="https://www.linkedin.com/company/dharma-producoes/" target="_blank" class="">
+                            <img class="fab logo_redes" src="../img/logo_redes_linkedin.png">
+                        </a>
+                        <!-- <a href="#" class="purple-text">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a> -->
+                    </div>
+                    <div class="col s12 mt-10">
+                      <p>© Dharma Produções. Todos os direitos reservados 2021.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+      <script>
+          //Sidenav
+          const sideNav = document.querySelector('.sidenav');
+          M.Sidenav.init(sideNav, {});
+
+          //Sliderr
+          // const slider = document.querySelector('.slider');
+          // M.Slider.init(slider, {
+          //     indicators: false,
+          //     height: 900,
+          //     transition: 500,
+          //     interval:6000
+
+          // });
+        
+
+          
+
+      </script>
+    </body>
+  </html>
+
+
+
+  
